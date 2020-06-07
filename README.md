@@ -12,7 +12,7 @@ I have deployed BPDTS Test application using API Gateway and Lambda functions on
 
 **In summary:** Firstly created a lambda function called BPDTS Test application with python runtime and lambda permissions then uploaded .zip to same. Next new api created with required resource headers and mapped with newly created lambda function. At last created api deployment stage and deployed the api and tested manually. 
 
-The reason why I choose server-less(lambda and api gateway) approach is, It is most cost effective, light weight, easy to maintain api and configure tls, provide authentication and authorisation to the api, request validation, fully integrated with IAM. Moreover we don't need to worry about memory, CPU and network. 
+The reason why I choose server-less(lambda and api gateway) approach is, It is most cost effective, light weight, easy to maintain api and secure(waf, tls1.2), provide authentication and authorisation to the api, request validation, fully integrated with IAM. Moreover we don't need to worry about memory, CPU and network. 
 
 However we can deploy the application using Elastic Beanstalk which will be PaaS approach or docker containers, OfCourse we can also use other cloud service providers. It really depends on use case to use case.
 
