@@ -20,7 +20,7 @@ If I have more time and resources I would think at production scale, build and d
 
 My aim is to make sure everything automated and no manual interventions required while build, test, code coverage, security vulnerabilities or virus scans and deploy. I will use 
 
--   Terraform and Ansible will use for IaC as they will support for multi cloud service providers 
+-   Terraform will use for IaC as they will support for multi cloud service providers 
 
 -   Use terraform workspaces to deploy in different environments and integrate with GitHub webhooks
 
